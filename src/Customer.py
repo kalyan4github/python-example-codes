@@ -1,5 +1,6 @@
 class Customer:
     firstname = ""
+    location = ""
 
     def __init__(self, name, location):
         Customer.firstname = name
